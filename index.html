@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-greeting">Hello, I'm</span>
+                <h1>Imane CHADLI</h1>
+                <h2 class="hero-title">I'm a <span class="dynamic-text"></span></h2>
+                <p class="hero-description">A passionate web developer crafting beautiful and functional digital experiences. I love turning complex problems into simple, beautiful solutions.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn primary">Get in Touch <i class="fas fa-arrow-right"></i></a>
+                    <a href="#projects" class="btn secondary">View My Work <i class="fas fa-code"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image-container">
+                    <img src="assets/images/profile.jpg" alt="Your Name" class="profile-image">
+                    <div class="profile-image-border"></div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title" data-aos="fade-up">About Me</h2>
+        <div class="about-content">
+            <div class="about-grid">
+                <div class="about-text" data-aos="fade-right">
+                    <div class="about-header">
+                        <h3>Who am I?</h3>
+                        <div class="about-underline"></div>
+                    </div>
+                    <p class="about-description">I'm a passionate web developer with a keen eye for creating elegant solutions in the least amount of time. I specialize in building responsive, user-friendly websites and applications that deliver exceptional user experiences.</p>
+                    
+                   
+                </div>
+
+                <div class="about-stats" data-aos="fade-left">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h4>Clean Code</h4>
+                            <p>Writing maintainable and efficient code</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h4>Responsive Design</h4>
+                            <p>Creating mobile-first experiences</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h4>Performance</h4>
+                            <p>Optimizing for speed and efficiency</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-section" data-aos="fade-up">
+                <div class="skills-header">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-underline"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Frontend</h4>
+                        <div class="skill-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Tailwind</span>
+                            <span>JavaScript</span>
+                            <span>React.js</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Backend</h4>
+                        <div class="skill-tags">
+                            <span>php</span>
+                            <span>laravel</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Tools & Others</h4>
+                        <div class="skill-tags">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>Figma</span>
+                            <span>Agile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2 class="section-title" data-aos="fade-up">Education</h2>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Bacalauriat science mathematiques</h3>
+                    <h4>Lycee Michlifen</h4>
+                    <p class="timeline-date">2019</p>
+                    <!-- <p>Graduated with honors. Specialized in Web Development and Software Engineering.</p> -->
+                </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Bacalauriat science mathematiques</h3>
+                    <h4>Lycee Michlifen</h4>
+                    <p class="timeline-date">2019</p>
+                    <p>Graduated with honors. Specialized in Web Development and Software Engineering.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <h2 class="section-title" data-aos="fade-up">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Senior Web Developer</h3>
+                    <h4>Tech Company Name</h4>
+                    <p class="timeline-date">2022 - Present</p>
+                    <ul class="experience-list">
+                        <li>Led development of multiple web applications using React and Node.js</li>
+                        <li>Mentored junior developers and conducted code reviews</li>
+                        <li>Implemented CI/CD pipelines and improved deployment processes</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Web Developer</h3>
+                    <h4>Digital Agency</h4>
+                    <p class="timeline-date">2020 - 2022</p>
+                    <ul class="experience-list">
+                        <li>Developed responsive websites for various clients</li>
+                        <li>Collaborated with designers to implement UI/UX improvements</li>
+                        <li>Optimized website performance and SEO</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+        <div class="project-grid">
+            <!-- Project Card 1 -->
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-image">
+                    <img src="3.png"Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>Project Name</h3>
+                    <p>Project description goes here. Explain what the project does and what technologies were used.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn">View Live</a>
+                        <a href="#" class="btn">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Project Name</h3>
+                    <p>Project description goes here. Explain what the project does and what technologies were used.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn">View Live</a>
+                        <a href="#" class="btn">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+        <div class="contact-content">
+            <form class="contact-form" data-aos="fade-up">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+            <div class="social-links" data-aos="fade-up" data-aos-delay="100">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
